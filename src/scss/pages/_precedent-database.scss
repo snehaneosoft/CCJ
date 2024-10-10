@@ -1,0 +1,20 @@
+/* ------------------- */
+/* precedent database css starts    */
+/* ------------------- */
+.precedent-container {
+  max-width: 864px;
+  margin: 0 auto;
+  padding-inline: 15px;
+  p {
+    font-family: $ff-roboto;
+    color: $text-black;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .green-pdf {
+    filter: invert(100%) grayscale(100%) brightness(2);
+  }
+}
+/* ------------------- */
+/* precedent database css ends     */
+/* ------------------- */

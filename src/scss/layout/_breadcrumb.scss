@@ -1,0 +1,14 @@
+.breadcrumb {
+  margin-bottom: 0;
+  .breadcrumb-item {
+    a {
+      font-size: rem(14);
+      color: $charcoal-medium;
+      text-transform: capitalize;
+    }
+    &.active {
+      font-weight: 700;
+      color: $brown;
+    }
+  }
+}

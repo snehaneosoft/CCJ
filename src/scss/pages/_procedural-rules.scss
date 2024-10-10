@@ -1,0 +1,40 @@
+/* ------------------- */
+/* procedural-rules css starts        */
+/* ------------------- */
+.procedural-rules-wrapper {
+  margin-top: 60px;
+  .procedural-container {
+    max-width: 974px;
+    padding-inline: 15px;
+    margin: 0 auto;
+  }
+  .prodecural-bottom {
+    p {
+      font-size: rem(14);
+      color: $text-black;
+      font-family: $ff-roboto;
+      margin-bottom: 20px;
+      a {
+        font-size: rem(14);
+        color: $text-black;
+        font-family: $ff-roboto;
+      }
+    }
+    h5 {
+      font-size: rem(14);
+      color: $text-black;
+      font-family: $ff-roboto;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-size: rem(14);
+      color: $text-black;
+      font-weight: 400;
+      margin-bottom: 20px;
+      font-family: $ff-roboto;
+    }
+  }
+}
+/* ------------------- */
+/* procedural-rules css ends         */
+/* ------------------- */

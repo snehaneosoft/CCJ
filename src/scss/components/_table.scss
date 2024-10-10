@@ -1,0 +1,60 @@
+/* ------------------- */
+/* common table css starts       */
+/* ------------------- */
+table {
+  width: 100%;
+  border: 1px solid $charcoal-light;
+  tr {
+    th {
+      background: rgba($medium-grey, 0.5);
+      padding: 10px;
+      border-right: 1px solid $charcoal-light;
+      &:last-child,
+      &:first-child {
+        vertical-align: middle;
+        text-align: center;
+      }
+      img {
+        cursor: pointer;
+      }
+    }
+    color: $secondary-black;
+    td {
+      padding: 10px;
+      border: 1px solid $charcoal-light;
+      color: $black;
+      font-size: rem(14);
+      &:last-child,
+      &:first-child {
+        vertical-align: middle;
+        text-align: center;
+      }
+      img {
+        cursor: pointer;
+      }
+      .download-button {
+        padding: 5px 10px;
+
+        background-color: $brown;
+        display: inline-block;
+        margin-right: 10px;
+        min-width: 50px;
+        &:last-child {
+          margin-right: 0;
+        }
+        span {
+          color: $white;
+          font-size: rem(14);
+          img {
+            width: 15px;
+            height: 15px;
+            filter: invert(1);
+          }
+        }
+      }
+    }
+  }
+}
+/* ------------------- */
+/* common table css ends      */
+/* ------------------- */

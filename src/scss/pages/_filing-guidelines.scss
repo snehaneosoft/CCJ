@@ -1,0 +1,19 @@
+.filing-wrapper {
+  .filing-guidelines-text {
+    margin-top: 30px;
+    p {
+      font-family: $ff-roboto;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+  }
+  .information-container {
+    .information-left {
+      p {
+        font-family: $ff-roboto;
+        color: $grey-text;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

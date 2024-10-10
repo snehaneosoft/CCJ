@@ -1,0 +1,104 @@
+.basic-text-wrapper {
+  margin-top: 38px;
+  margin-bottom: 70px;
+  .basic-left {
+    background-color: $brown;
+    padding: 40px;
+    height: 100%;
+    p {
+      font-family: $ff-roboto;
+      font-weight: 500;
+      color: $white;
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    ul {
+      li {
+        padding-block: 15px;
+        font-family: $ff-roboto;
+        font-weight: 500;
+        color: $white;
+        border-bottom: 1px solid rgba($white, 0.1);
+        &:first-child {
+          padding-top: 0;
+        }
+        a {
+          font-weight: 500;
+          color: $white;
+        }
+        .letter {
+          font-weight: 500;
+          color: $white;
+          margin-right: 20px;
+        }
+        img {
+          filter: invert(100%) grayscale(100%) brightness(2);
+          width: 18px;
+          height: 18px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  .basic-right {
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .basic-bottom {
+    margin-top: 43px;
+    .basic-text-left {
+      ul {
+        li {
+          color: $charcoal;
+          padding-block: 15px;
+          font-size: rem(18);
+          font-family: $ff-roboto;
+          &:first-child {
+            padding-top: 0;
+          }
+        }
+      }
+    }
+    .basic-text-right {
+      background-color: $slate;
+      padding: 30px;
+      ul {
+        li {
+          padding-block: 15px;
+          cursor: pointer;
+          color: $charcoal;
+          font-size: rem(16);
+          font-weight: 500;
+          display: flex;
+          align-items: flex-start;
+          font-family: $ff-roboto;
+          border-bottom: 1px solid rgba($charcoal, 0.2);
+          &:first-child {
+            padding-top: 0;
+          }
+          a {
+            color: $charcoal;
+            font-size: rem(16);
+            font-weight: 500;
+          }
+          .letter {
+            font-weight: 500;
+            color: $charcoal;
+            margin-right: 20px;
+          }
+          img {
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

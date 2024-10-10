@@ -1,0 +1,15 @@
+.job-detail-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h6 {
+    border-bottom: 0 !important;
+    font-family: $ff-roboto;
+  }
+  p {
+    max-width: 683px;
+    font-size: rem(18) !important;
+    text-align: center;
+    font-family: $ff-roboto;
+  }
+}

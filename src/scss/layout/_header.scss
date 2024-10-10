@@ -1,0 +1,188 @@
+/* ------------------- */
+/* Start: Header       */
+/* ------------------- */
+
+.header {
+  &__icons {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+  }
+  @include media-breakpoint-up(lg) {
+    position: relative;
+    padding-block: 15px;
+    z-index: 10;
+  }
+  &__left {
+    @extend %alignCenter;
+    @media only screen and (max-width: 1024px) {
+      gap: 6px;
+      margin-bottom: 0;
+      width: 100%;
+      background: $white;
+      position: fixed;
+      left: 0;
+      padding: 20px;
+      top: 0;
+      z-index: 10;
+    }
+    @include media-breakpoint-up(lg) {
+      position: relative;
+      padding: 0;
+    }
+    @include media-breakpoint-up(xl) {
+      gap: 10px;
+    }
+    &__logo {
+      width: 40px;
+      aspect-ratio: 1 / 1;
+
+      @media (min-width: 375px) {
+        width: 70px;
+      }
+      @include media-breakpoint-up(lg) {
+        width: 92px;
+      }
+    }
+    a {
+      font-size: rem(10);
+      line-height: 11.81px;
+      text-transform: uppercase;
+      font-weight: 700;
+      @include media-breakpoint-up(sm) {
+        font-size: rem(13);
+        line-height: 18px;
+      }
+      @include media-breakpoint-up(xl) {
+        font-size: rem(18);
+        line-height: 24px;
+      }
+      @include media-breakpoint-up(xxl) {
+        font-size: rem(20);
+        line-height: 27px;
+      }
+    }
+
+    .btn-close {
+      cursor: pointer;
+    }
+  }
+  &-right {
+    width: 100%;
+    background: $white;
+    @media only screen and (max-width: 1024px) {
+      display: none;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 100%;
+      padding: 0;
+    }
+
+    &__top {
+      @extend %flexColumn;
+      gap: 20px;
+      @include media-breakpoint-up(lg) {
+        align-items: center;
+        justify-content: flex-end;
+        gap: 7px;
+      }
+      @include media-breakpoint-up(xl) {
+        gap: 10px;
+      }
+      
+      li {
+        line-height: 10px;
+        a {
+          font-size: rem(14);
+          white-space: nowrap;
+        }
+        .button {
+          @include media-breakpoint-up(lg) {
+            padding-inline: 10px;
+            font-size: rem(12);
+            white-space: nowrap;
+          }
+          @include media-breakpoint-up(xl) {
+            font-size: rem(14);
+            padding: 10px 10px;
+          }
+        }
+      }
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+      }
+    }
+
+    &__bottom {
+      @include media-breakpoint-up(lg) {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        margin-top: 30px;
+      }
+      select,
+      input {
+        border-radius: 6px !important;
+        border-bottom: 1px solid $grey;
+        @include media-breakpoint-up(lg) {
+          width: 100%;
+          padding: 5px 10px;
+        }
+      }
+      select {
+        text-transform: uppercase;
+      }
+    }
+    &__searchsite {
+      position: relative;
+      @include media-breakpoint-up(lg) {
+        width: 183px;
+      }
+      .search-icon {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    &__select {
+      width: 100%;
+      @include media-breakpoint-up(lg) {
+        width: 90px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .header__left {
+        display: none;
+      }
+    }
+  }
+}
+
+/*  Header design changes told by client*/
+.header-left-width {
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    width: 43%;
+  }
+}
+
+.header-right-width {
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    width: 57%;
+  }
+}
+
+@keyframes showSidebar {
+  to {
+    left: 0;
+  }
+}
+/* ------------------- */
+/* End: Header         */
+/* ------------------- */

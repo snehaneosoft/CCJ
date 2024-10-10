@@ -1,0 +1,17 @@
+.sitemap-wrapper {
+  .sitemap-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    h5 {
+      font-size: rem(18);
+    }
+
+   
+   
+  }
+}

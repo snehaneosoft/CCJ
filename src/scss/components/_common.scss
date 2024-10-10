@@ -1,0 +1,133 @@
+/* For Webkit-based browsers like Chrome, Safari */
+.custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 4px; /* Set the scrollbar width */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $slate; /* Track color */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $grey; /* Scrollbar thumb color */
+    border-radius: 10px; /* Roundness of the scroll thumb */
+  }
+
+  /* For Firefox */
+  scrollbar-width: thin; /* Set scrollbar width */
+  scrollbar-color: $grey $slate; /* Thumb color, track color */
+}
+
+/* common  bottom border css starts */
+
+.bottom-border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba($brown, 0.5);
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  //   z-index: -1;
+  @include media-breakpoint-up(lg) {
+    gap: 0;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    background: $brown;
+    width: 30px;
+    bottom: -2.5px;
+    left: 0;
+  }
+  h6 {
+    font-size: rem(22);
+    color: $secondary-black;
+    line-height: 23.3px;
+  }
+}
+/* common  bottom border css ends */
+
+/* horizontal border css starts */
+.horizontal-border {
+  margin-block: 10px;
+  border-bottom: 1px solid rgba($ligh-grey, 0.2);
+}
+/* horizontal border css ends */
+
+/* common popup design css starts */
+
+.popup-wrapper {
+  padding: 20px;
+  background: $white;
+  border-radius: 0;
+
+  .modal-header {
+    justify-content: center;
+    border-bottom: 0;
+    position: relative;
+
+    h1 {
+      font-size: rem(20);
+      color: $brown;
+    }
+    p {
+      font-size: rem(16);
+      color: $text-black;
+    }
+  }
+  .modal-body {
+    button {
+      min-width: 180px !important;
+      text-transform: uppercase;
+    }
+    .green-heading {
+      font-size: rem(40);
+      color: $green;
+    }
+    .thankyou-text {
+      font-size: rem(20);
+      color: $brown;
+    }
+  }
+
+  .btn-close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: block !important;
+    padding: 0;
+    min-width: auto;
+  }
+}
+/* common popup design css ends */
+
+/* detail page heading with pagination ends */
+
+.heading-pagination {
+  padding-block: 30px;
+}
+/* detail page heading with pagination ends */
+
+/* common breadcrumb without bottom border heading css starts */
+.caselist-main {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* common breadcrumb without bottom border heading css ends */
+
+/* read more link css */
+.read-more {
+  font-size: rem(14);
+  font-weight: 700;
+  color: $brown;
+  font-family: $ff-roboto;
+}
+
+/* display none class for pdf show logic */
+.hidden {
+  display: none;
+}

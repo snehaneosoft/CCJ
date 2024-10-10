@@ -1,0 +1,54 @@
+.announcements-wrapper {
+  .announcement-top {
+    padding: 30px;
+    background-color: $brown;
+    text-align: center;
+    span {
+      font-size: rem(18);
+      color: rgba($white, 0.9);
+      font-family: $ff-roboto;
+    }
+    h6 {
+      font-size: rem(20);
+      color: $white;
+      margin-top: 20px;
+      font-family: $ff-roboto;
+    }
+  }
+  .details-container {
+    margin-top: 30px;
+    h5 {
+      font-size: rem(20);
+      font-weight: 400;
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba($black, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .announcement-grey-box {
+      padding: 30px 20px;
+      background-color: $slate;
+      margin-top: 30px;
+      p {
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+      h6 {
+        font-family: $ff-helvetica;
+        color: $text-black;
+        font-weight: 600;
+        font-size: rem(16);
+      }
+      .announcements-contact {
+        span,
+        p {
+          font-family: $ff-roboto;
+          color: $text-black;
+          font-size: rem(16);
+          text-align: unset;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rohit Kumar" />
+    <meta name="description" content="Your Project Description" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Project Title</title>
+
+    <!-- Favicon Start  -->
+    <link rel="icon" href="src/icons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="src/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="src/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="src/icons/favicon-16x16.png" />
+    <link rel="manifest" href="src/icons/site.webmanifest" />
+    <!-- Favicon End  -->
+
+    <!-- Custom CSS Start  -->
+    <link rel="stylesheet" href="src/css/animate.css">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <!-- Custom CSS End  -->
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xl-6 col-lg-5">
+                    <div class="header__left">
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="header__left__logo">
+                                <img src="/src/images/Ecowas_Logo.svg" alt="header-logo">
+                            </div>
+                            <a>Cour de Justice de la Communauté <br>Community Court of Justice <br>Tribunal de Justiça
+                                da Comunidade</a>
+                        </div>
+                        <div class="header__icons">
+                            <img src="/src/images/mobile-hamburger.svg" alt="mobile-hamburger" id="open-sidebar"
+                                class="hamburger-icon">
+                            <button type="button" class="btn-close p-0" aria-label="Close" id="close-sidebar"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <div class="header-right custom-scrollbar">
+                        <div>
+                            <ul class="header-right__top">
+                                <li><a href="">Rechercher des Documents</a></li>
+                                <li><a href="">Centre de Messages</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Newsletter</a></li>
+                                <li><button class="button button-primary">E-filing/ECMS</button></li>
+                            </ul>
+                            <div class="header-right__bottom">
+                                <div class="header-right__searchsite">
+                                    <input class="form-control" type="text" placeholder="Rechercher sur le site"
+                                        aria-label="default input example">
+                                    <img src="/src/images/search_logo.svg" alt="search-icon" class="search-icon">
+                                </div>
+                                <div class="header-right__select">
+                                    <select class="form-select" aria-label="Large select example">
+                                        <option selected>Ang</option>
+                                        <option value="2">Fr</option>
+                                        <option value="3">Pt</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="container custom-navbar">
+            <li><a href="javascript:void(0)" class="dropbtn dropbtn--grid">Accueil</a></li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn">
+                    <span>À Propos de Nous</span>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Mandat & Juridiction</a></li>
+                    <li><a href="#">Informations Pratiques</a></li>
+                    <li><a href="#">Textes de Base</a></li>
+                    <li><a href="#">Mission et Vision</a></li>
+                    <li><a href="#">Histoire du Tribunal</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn">
+                    <span>Structure du Tribunal</span>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Organigramme</a></li>
+                    <li><a href="#">Comité Judiciaire</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn">
+                    <span>Affaires et Décisions</span>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Rechercher des Affaires</a></li>
+                    <li><a href="#">Parcourir les Affaires</a></li>
+                    <li><a href="#">Décisions du Tribunal</a></li>
+                    <li><a href="#">Liste des Causes</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0)" class="dropbtn dropbtn--grid">Avis d'Enregistrement</a></li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn">
+                    <span>Ressources Juridiques</span>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Règlement du Tribunal</a></li>
+                    <li><a href="#">Traités Internationaux</a></li>
+                    <li><a href="#">Précédents Juridiques</a></li>
+                    <li><a href="#">Ressources Web pour la Recherche Juridique</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn">
+                    <span>Événements du Tribunal</span>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Audiences à Venir</a></li>
+                    <li><a href="#">Événements Non Judiciaires</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn">
+                    <span>Médias & Publications</span>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Médias</a></li>
+                    <li><a href="#">Publications</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="dropbtn"><span>Actualités & Mises à Jour</span></a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Communiqués de Presse</a></li>
+                    <li><a href="#">Articles de Presse</a></li>
+                    <ul class="dropdown-submenu">
+                        <li><a href="#">Mises à Jour du Tribunal &nbsp; &nbsp; &#x276F; </a>
+                            <ul class="dropdown-content-submenu">
+                                <li><a href="#">Annonces</a></li>
+                                <li><a href="#">Alertes de Maintenance</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <section class="main-banner">
+            <div class="owl-carousel-banner owl-carousel owl-theme">
+                <div class="item ">
+                    <img loading="lazy" src="src/images/home-banner.png" alt="" title="" />
+                </div>
+
+                <div class="item">
+                    <img loading="lazy" src="src/images/mission-banner.png" alt="" title="" />
+                </div>
+                <div class="item">
+                    <img loading="lazy" src="src/images/vision-banner.png" alt="" title="" />
+                </div>
+                <div class="item">
+                    <img loading="lazy" src="src/images/core-banner.png" alt="" title="" />
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <section class="homepage">
+            <div class="container">
+
+                <div class="carausal-section">
+                    <div class="decisions bottom-border">
+                        <h6>Dernières Décisions</h6>
+                    </div>
+                    <div class="owl-carousel owl-carousel-decisions owl-theme">
+                        <div class="item">
+                            <div class="decision-slide">
+                                <h6><span>15</span>Juin’24</h6>
+                                <p>LA COUR REJETTE LA RÉCLAMATION DE VIOLATION DES DROITS PRÉSENTÉE PAR LES ONG
+                                    DEMANDANT UN ARRÊT DE LA COUR POUR
+                                    LA MISE EN ŒUVRE DE LA CANDIDATURE INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                <a href="javascript:void(0)">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="decision-slide">
+                                <h6><span>15</span>Juin’24</h6>
+                                <p>LA COUR REJETTE LA RÉCLAMATION DE VIOLATION DES DROITS PRÉSENTÉE PAR LES ONG
+                                    DEMANDANT UN ARRÊT DE LA COUR POUR
+                                    LA MISE EN ŒUVRE DE LA CANDIDATURE INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                <a href="javascript:void(0)">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="decision-slide">
+                                <h6><span>15</span>Juin’24</h6>
+                                <p>LA COUR REJETTE LA RÉCLAMATION DE VIOLATION DES DROITS PRÉSENTÉE PAR LES ONG
+                                    DEMANDANT UN ARRÊT DE LA COUR POUR
+                                    LA MISE EN ŒUVRE DE LA CANDIDATURE INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                <a href="javascript:void(0)">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="decision-slide">
+                                <h6><span>15</span>Juin’24</h6>
+                                <p>LA COUR REJETTE LA RÉCLAMATION DE VIOLATION DES DROITS PRÉSENTÉE PAR LES ONG
+                                    DEMANDANT UN ARRÊT DE LA COUR POUR
+                                    LA MISE EN ŒUVRE DE LA CANDIDATURE INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                <a href="javascript:void(0)">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="decision-slide">
+                                <h6><span>15</span>Juin’24</h6>
+                                <p>LA COUR REJETTE LA RÉCLAMATION DE VIOLATION DES DROITS PRÉSENTÉE PAR LES ONG
+                                    DEMANDANT UN ARRÊT DE LA COUR POUR
+                                    LA MISE EN ŒUVRE DE LA CANDIDATURE INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                <a href="javascript:void(0)">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="president-section">
+                    <div class="row align-items-lg-center g-0">
+                        <div class="col-lg-4">
+                            <div class="president-left">
+                                <img loading="lazy" src="src/images/president-home.jpg" alt="" title="" />
+                                <p>Honorable Juge Edward Amoako Asante</p>
+                                <span>Président</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="president-right">
+                                <div class=" bottom-border">
+                                    <h6>Message du Président</h6>
+                                </div>
+                                <p>La Banque d’Investissement et de Développement de la CEDEAO (BIDC) s'est transformée
+                                    en une institution de finance de développement (IFD) à part entière au fil des ans.
+                                    En tant que principale IFD régionale, la Banque, depuis plus de quarante ans,
+                                    s'efforce d'aider les États membres à relever les défis en matière
+                                    d'infrastructures, sociaux et institutionnels dans la sous-région de la CEDEAO, en
+                                    finançant des projets dans les secteurs privé et public. Avec chaque intervention,
+                                    nous avons toujours cherché à atteindre notre vision d’être “un instrument efficace
+                                    pour la réduction de la pauvreté, la création de richesse et la promotion de
+                                    l’emploi pour le bien-être des populations de la sous-région”.
+                                </p>
+                                <p>Après avoir fonctionné comme l'IFD de la Communauté pendant plus de quarante ans, la
+                                    Banque a accumulé les connaissances et l'expertise nécessaires pour proposer des
+                                    solutions fondées sur des preuves aux défis auxquels sont confrontés les États
+                                    membres…</p>
+                                <p>Après avoir fonctionné comme l'IFD de la Communauté pendant plus de quarante ans, la
+                                    Banque a accumulé les connaissances et l'expertise nécessaires pour proposer des
+                                    solutions fondées sur des preuves aux défis auxquels sont confrontés les États
+                                    membres…</p>
+                                <a href="javascript:void(0)" class="read-more">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calender-form-section">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="calender-section">
+                                <div class="bottom-border">
+                                    <h6>Calendrier Judiciaire</h6>
+                                </div>
+                                <section id="frame" class="calender-box">
+                                    <div id="calendar">
+                                        <header>
+                                            <pre class="arrow left"><</pre>
+                                            <div class="header-display">
+                                                <p id="display"></p>
+                                            </div>
+                                            <pre class="arrow right">></pre>
+                                        </header>
+                                        <div class="week">
+                                            <div>Lu</div>
+                                            <div>Ma</div>
+                                            <div>Me</div>
+                                            <div>Je</div>
+                                            <div>Ve</div>
+                                            <div>Sa</div>
+                                            <div>Di</div>
+                                        </div>
+                                        <div id="days"></div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-3 mt-lg-0">
+                            <div class="form-cases-wrapper">
+                                <div class="bottom-border">
+                                    <h6>Rechercher des Affaires</h6>
+                                </div>
+                                <form action="" method="post">
+                                    <div class="form-field-wrapper">
+                                        <label for="exampleFormControlInput1" class="form-label">Entrer le Numéro de
+                                            Dossier/Partie
+                                            Nom/Numéro de Jugement</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Sélectionner</option>
+                                            <option value="1">Un</option>
+                                            <option value="2">Deux</option>
+                                            <option value="3">Trois</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <input class="form-control" type="text" placeholder="Rechercher Ici"
+                                            aria-label=" input example">
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <label for="" class="form-label">Date de Dépôt</label>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="date-wrapper">
+                                                    <label for="exampleFormControlInput1" class="form-label">Du</label>
+                                                    <input type="date" id="birthday" value="2017-06-01" name="birthday"
+                                                        class="date-picker">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="date-wrapper">
+                                                    <label for="exampleFormControlInput1" class="form-label">Au</label>
+                                                    <input type="date" id="birthday" value="2017-06-01" name="birthday"
+                                                        class="date-picker">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <button class="button button-primary">Soumettre</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-3 mt-lg-0">
+                            <div class="form-cases-wrapper">
+                                <div class="bottom-border">
+                                    <h6>Parcourir les Affaires</h6>
+                                </div>
+                                <form action="" method="post">
+                                    <div class="form-field-wrapper">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <label for="exampleFormControlInput1"
+                                                    class="form-label">Désignation</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Sélectionner le Pays</option>
+                                                    <option value="1">Un</option>
+                                                    <option value="2">Deux</option>
+                                                    <option value="3">Trois</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="exampleFormControlInput1"
+                                                    class="form-label">Département</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Sélectionner la Langue</option>
+                                                    <option value="1">Un</option>
+                                                    <option value="2">Deux</option>
+                                                    <option value="3">Trois</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <label for="exampleFormControlInput1" class="form-label">Nature des
+                                            affaires</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Sélectionner</option>
+                                            <option value="1">Un</option>
+                                            <option value="2">Deux</option>
+                                            <option value="3">Trois</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <label for="" class="form-label">Date de Dépôt</label>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="date-wrapper">
+                                                    <label for="exampleFormControlInput1" class="form-label">Du</label>
+                                                    <input type="date" id="birthday" name="birthday" value="2017-06-01"
+                                                        class="date-picker">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="date-wrapper">
+                                                    <label for="exampleFormControlInput1" class="form-label">Au</label>
+                                                    <input type="date" id="birthday" name="birthday" value="2017-06-01"
+                                                        class="date-picker">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <label for="exampleFormControlInput1" class="form-label">Juge Rapporteur</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Sélectionner le Juge Rapporteur</option>
+                                            <option value="1">Un</option>
+                                            <option value="2">Deux</option>
+                                            <option value="3">Trois</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <input class="form-control" type="text"
+                                            placeholder="Rechercher par problème juridique/parties impliquées"
+                                            aria-label="input example">
+                                    </div>
+                                    <div class="form-field-wrapper">
+                                        <button class="button button-primary">Soumettre</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-articles-section">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="community-section">
+                                <div class="community-banner">
+                                    <img loading="lazy" src="src/images/community-banner.png" alt="community-banner"
+                                        title="" />
+                                </div>
+                                <div class="community-info">
+                                    <h6><span>Bienvenue </span> à la Cour de Justice de la Communauté</h6>
+                                    <p>La Communauté Économique des États de l'Afrique de l'Ouest (CEDEAO) a été établie
+                                        par l'article 1 du Traité de Lagos du 28 mai 1975 pour promouvoir l'intégration
+                                        socio-économique des États membres de la Communauté. La Cour de Justice de la
+                                        Communauté a été créée conformément aux dispositions des articles 6 et 15 du
+                                        Traité Révisé de la CEDEAO de 1993 en tant que principal organe juridique de la
+                                        Communauté. Le paragraphe 2 de l'article 15 indique que le statut, la
+                                        composition, les pouvoirs, la procédure et d'autres questions concernant la Cour
+                                        doivent être précisés dans un Protocole y afférent.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 mt-3 mt-lg-0">
+                            <div class="latest-news--wrapper">
+                                <div class="bottom-border mb-0">
+                                    <h6>Dernières Nouvelles</h6>
+                                </div>
+                                <div class="latest-news-main" id="style-4">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img loading="lazy" src="src/images/community-banner.png" alt="" title="" />
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="latest-news">
+                                                <h6><span>15</span>Jun’24</h6>
+                                                <p>LA COUR REJETTE LA DEMANDE D'ONG PRÉTENDANT À UNE VIOLATION DES
+                                                    DROITS, VISANT À ORDONNER LA MISE EN ŒUVRE DE LA CANDIDATURE
+                                                    INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                                <a href="javascript:void(0)" class="button button-primary">Lire la
+                                                    suite</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="horizontal-border"></div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img loading="lazy" src="src/images/community-banner.png" alt="" title="" />
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="latest-news">
+                                                <h6><span>15</span>Jun’24</h6>
+                                                <p>LA COUR REJETTE LA DEMANDE D'ONG PRÉTENDANT À UNE VIOLATION DES
+                                                    DROITS, VISANT À ORDONNER LA MISE EN ŒUVRE DE LA CANDIDATURE
+                                                    INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                                <a href="javascript:void(0)" class="button button-primary">Lire la
+                                                    suite</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="horizontal-border"></div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img loading="lazy" src="src/images/community-banner.png" alt="" title="" />
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="latest-news">
+                                                <h6><span>15</span>Jun’24</h6>
+                                                <p>LA COUR REJETTE LA DEMANDE D'ONG PRÉTENDANT À UNE VIOLATION DES
+                                                    DROITS, VISANT À ORDONNER LA MISE EN ŒUVRE DE LA CANDIDATURE
+                                                    INDÉPENDANTE AUX ÉLECTIONS AU NIGERIA</p>
+                                                <a href="javascript:void(0)" class="button button-primary">Lire la
+                                                    suite</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="horizontal-border"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__top-box footer__top-box-main">
+                    <h5 class="footer_top_menu"><span>Informations de contact</span>
+                        <img loading="lazy" src="/src/images/down-arrow.svg" alt="" title="" />
+                    </h5>
+                    <ul>
+                        <li>
+                            <img src="/src/images/location.svg" alt="">
+                            <div>
+                                <p>La Cour de Justice de la Communauté, CEDEAO est située à :</p>
+                                <address>Parcelle 1164, Rue Joseph Gomwalk, District de Gudu, Abuja, Nigéria.</address>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/src/images/mail.svg" alt="icone de courrier">
+                            <div>
+                                <p>Informations sur une affaire, </p>
+                                <a href="javascript:;">registry@courtecowas.org</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/src/images/mail.svg" alt="icone de courrier">
+                            <div>
+                                <p>Informations générales, </p>
+                                <a href="javascript:;">info@courtecowas.org</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/src/images/mail.svg" alt="icone de courrier">
+                            <div>
+                                <p>Bureau du Président, </p>
+                                <a href="javascript:;">president@courtecowas.org</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/src/images/domain.svg" alt="icone de domaine">
+                            <div>
+                                <p>Vous pouvez également visiter notre site Web : </p>
+                                <a href="javascript:;">www.courtecowas.org</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__top-box">
+                    <h5 class="footer_top_menu">
+                        <span>Opportunités</span>
+                        <img loading="lazy" src="/src/images/down-arrow.svg" alt="" title="" />
+                    </h5>
+                    <ul>
+                        <li><a href="javascript:;">Postes vacants</a></li>
+                        <li><a href="javascript:;">Appels d'offres</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top-box">
+                    <h5 class="footer_top_menu">
+                        <span>Légal</span>
+                        <img loading="lazy" src="/src/images/down-arrow.svg" alt="" title="" />
+                    </h5>
+                    <ul>
+                        <li><a href="javascript:;">Commission de la CEDEAO</a></li>
+                        <li><a href="javascript:;">Parlement de la CEDEAO</a></li>
+                        <li><a href="javascript:;">Banque d'investissement et de développement de la CEDEAO (BIDC)</a>
+                        </li>
+                        <li><a href="javascript:;">Organisation Ouest Africaine de la Santé (OOAS)</a></li>
+                        <li><a href="javascript:;">Cour Africaine</a></li>
+                        <li><a href="javascript:;">Cour de Justice de l'Afrique de l'Est</a></li>
+                        <li><a href="javascript:;">Cour de Justice de la SADC</a></li>
+                        <li><a href="javascript:;">COMESA</a></li>
+                        <li><a href="javascript:;">Plan du site</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top-box">
+                    <h5 class="footer_top_menu">
+                        <span>Liens rapides</span>
+                        <img loading="lazy" src="/src/images/down-arrow.svg" alt="" title="" />
+                    </h5>
+                    <ul>
+                        <li><a href="javascript:;">Politique de confidentialité</a></li>
+                        <li><a href="javascript:;">Mentions légales</a></li>
+                        <li><a href="javascript:;">Cookies</a></li>
+                        <li><a href="javascript:;">Avertissement et avertissement</a></li>
+                        <li><a href="javascript:;">Accessibilité</a></li>
+                        <li><a href="javascript:;">Protection des données sur le site CCJ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <ul>
+                    <li><a href="javascript:;"><img src="/src/images/facebook-icon.svg" alt="icone fb"></a></li>
+                    <li><a href="javascript:;"><img src="/src/images/twitter-icon.svg" alt="icone twitter"></a></li>
+                    <li><a href="javascript:;"><img src="/src/images/linkedin-icon.svg" alt="icone linkedin"></a></li>
+                    <li><a href="javascript:;"><img src="/src/images/youtube-icon.svg" alt="icone youtube"></a></li>
+                    <li><a href="javascript:;"><img src="/src/images/discord-icon.svg" alt="icone discord"></a></li>
+                    <li><a href="javascript:;"><img src="/src/images/blogs-icon.svg" alt="icone blog"></a></li>
+                </ul>
+                <div class="footer_bottom_copyright">
+                    <span>©2024 CCJ- Tous droits réservés</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Owl Carousel Start -->
+    <script src="src/js/jquery/jquery.min.js"></script>
+    <script src="src/js/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Owl Carousel End  -->
+
+    <!-- Bootstrap  JS Start -->
+    <script src="src/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap  JS End  -->
+
+    <!-- Custom JS Start -->
+    <script src="src/js/calender.js"></script>
+    <script src="src/js/index.js"></script>
+
+    <!-- Custom JS End -->
+</body>
+
+</html>

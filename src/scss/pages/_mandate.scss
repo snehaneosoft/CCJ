@@ -1,0 +1,89 @@
+.mandate-wrapper {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  .mandate-left {
+    background-color: $brown;
+    padding: 20px;
+    height: 100%;
+    @include media-breakpoint-up(lg) {
+      padding: 38px 135px 28px 28px;
+    }
+    h6 {
+      font-size: rem(28);
+      font-weight: 500;
+      color: $white;
+      margin-bottom: 15px;
+    }
+    p {
+      color: rgba($white, 0.9);
+      font-size: rem(18);
+    }
+  }
+
+  .madate-right {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .mandate-bottom {
+    margin-top: 48px;
+    .jurisdiction-left {
+      padding: 20px;
+      background-color: $slate;
+      h5 {
+        font-size: rem(16);
+        font-weight: 700;
+        color: $black;
+        margin-bottom: 10px;
+      }
+      ul {
+        li {
+          font-size: rem(14);
+          font-family: $ff-roboto;
+          color: $grey-text;
+          text-align: justify;
+          position: relative;
+          padding-left: 20px;
+          margin-bottom: 10px;
+          &::before {
+            content: "";
+            display: block;
+            height: 8px;
+            width: 8px;
+            top: 4px;
+            background: $green;
+            position: absolute;
+            border-radius: 50%;
+            left: 0;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .jurisdiction-right {
+      .juridiction-list {
+        padding: 20px;
+        background-color: $slate;
+        margin-bottom: 35px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        h5 {
+          font-size: rem(16);
+          font-weight: 700;
+          color: $black;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: rem(14);
+          font-family: $ff-roboto;
+          color: $grey-text;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

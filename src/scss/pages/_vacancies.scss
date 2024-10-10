@@ -1,0 +1,54 @@
+/* ------------------- */
+/* vanancies css starts  */
+/* ------------------- */
+.vacancies-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  .vanacies-card {
+    width: 100%;
+    padding: 38px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba($black, 0.2);
+    @include media-breakpoint-up(xl) {
+      width: 49%;
+    }
+    .card-top {
+      p {
+        font-weight: 700;
+        font-size: rem(14);
+        color: $text-black;
+        span {
+          font-size: rem(20);
+          color: $green;
+        }
+      }
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba($black, 0.1);
+      img {
+        height: 21px;
+        max-width: 21px;
+        cursor: pointer;
+      }
+      button {
+        text-align: left;
+        margin-top: 10px;
+        @include media-breakpoint-up(lg) {
+          margin-top: 0;
+        }
+      }
+    }
+    .card-bottom {
+      p {
+        text-align: justify;
+        font-size: rem(16);
+        margin-block: 20px;
+        font-family: $ff-roboto;
+      }
+    }
+  }
+}
+/* ------------------- */
+/* vanancies css ends  */
+/* ------------------- */

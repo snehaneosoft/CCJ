@@ -1,0 +1,181 @@
+
+/* ------------------- */
+/* calender detail page css starts          */
+/* ------------------- */
+
+.tribe-events-header {
+  .tribe-events-c-events-bar {
+    .tribe-events-c-search__button {
+      color: $white;
+      background: $brown;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      border: 1px solid $medium-grey;
+      &:hover {
+        color: $brown;
+        background: $white;
+        border: 1px solid $brown;
+      }
+    }
+  }
+  .tribe-events {
+    .tribe-events-c-view-selector__list-item--active {
+      .tribe-events-c-view-selector__list-item-text {
+        font-size: rem(12);
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.tribe-events-c-view-selector__list {
+  .tribe-events-c-view-selector__list-item--active {
+    .tribe-events-c-view-selector__list-item-link {
+      border-radius: 0;
+      font-size: 12px;
+      padding: 20px !important;
+      background: $green !important;
+      .tribe-events-c-view-selector__list-item-text {
+        color: $white !important;
+        font-weight: 700;
+        span {
+          color: $white;
+        }
+      }
+      &::after {
+        display: none !important;
+      }
+    }
+  }
+}
+.tribe-events-calendar-month {
+  .tribe-events-calendar-month__body {
+    background-color: $medium-grey;
+    .tribe-events-calendar-month__day-date {
+      text-align: right;
+      font-size: rem(22);
+      font-weight: 400;
+      color: $text-black;
+      opacity: 1;
+    }
+    .tribe-events-calendar-month__calendar-event-details {
+      padding: 10px;
+      background-color: $brown;
+      .tribe-events-calendar-month__calendar-event-datetime {
+        color: $white;
+        font-size: rem(14);
+        opacity: 1;
+      }
+      .tribe-events-calendar-month__calendar-event-title {
+        a {
+          color: $white;
+          font-size: rem(14);
+        }
+      }
+    }
+  }
+}
+
+.tribe-common--breakpoint-medium {
+  .tribe-events {
+    .tribe-events-c-view-selector--tabs {
+      .tribe-events-c-view-selector__list-item-link {
+        padding: 20px !important;
+      }
+    }
+  }
+}
+
+.tribe-events {
+  .tribe-events-calendar-month__header-column {
+    padding: 20px;
+    background: $green;
+    h3 {
+      text-align: center !important;
+      font-weight: 700;
+      color: $white;
+      font-size: rem(20) !important;
+      text-transform: capitalize;
+    }
+  }
+}
+.tribe-common--breakpoint-medium {
+  .tribe-events {
+    .tribe-events-calendar-month__header-column-title {
+      text-align: center;
+    }
+  }
+}
+
+.tribe-common--breakpoint-medium {
+  .tribe-events {
+    .tribe-events-calendar-month__day {
+      border: 1px solid rgba($black, 0.2);
+    }
+  }
+}
+.tribe-common-c-btn-border {
+  color: $white !important;
+  background: $brown !important;
+  text-transform: uppercase;
+  font-size: 0.875rem !important;
+  border: 1px solid $medium-grey !important;
+  &:hover {
+    color: $brown;
+    background: $white;
+    border: 1px solid $brown;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.tribe-events {
+  .tribe-events-calendar-month__multiday-event-bar-inner {
+    background-color: $brown;
+    h3 {
+      color: $white;
+      font-size: rem(14);
+    }
+  }
+}
+
+.tribe-events-c-view-selector__list-item {
+  padding: 0 !important;
+}
+.tribe-events-c-view-selector__list-item-link {
+  padding: 20px;
+}
+.tribe-events {
+  .tribe-events-calendar-month__day-cell--selected {
+    background: $brown !important;
+    h3 {
+      span,
+      time {
+        color: $white !important;
+      }
+    }
+  }
+}
+
+.tribe-events {
+  .tribe-events-calendar-month__day-cell--mobile {
+    &:hover {
+      background: $brown !important;
+      border: 0 !important;
+    }
+  }
+}
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-c-view-selector--tabs
+  .tribe-events-c-view-selector__list {
+  gap: 30px;
+}
+.tribe-events .tribe-events-calendar-month__day-cell--mobile {
+  justify-content: center;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+  padding-bottom: 0;
+}
+/* ------------------- */
+/* calender detail page css ends         */
+/* ------------------- */

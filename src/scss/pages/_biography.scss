@@ -1,0 +1,35 @@
+.biography-wrapper {
+  background-color: rgba($light-yellow, 0.05);
+  padding-top: 30px;
+  padding-bottom: 50px;
+  .bottom-border {
+    margin-bottom: 50px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .biography {
+    .biography-right {
+      .person-details {
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba($black, 0.1);
+        h6 {
+          font-weight: 400;
+          font-size: rem(20);
+          color: $black;
+          margin-bottom: 10px;
+        }
+        .button {
+          font-weight: 700;
+          font-size: rem(14);
+          text-transform: capitalize;
+        }
+      }
+      p {
+        font-family: $ff-roboto;
+        padding-top: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.archived-wrapper {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  .archived-main {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      li {
+        padding: 30px 20px 20px;
+        background-color: rgba($medium-grey, 0.2);
+        h6 {
+          font-size: rem(16);
+        }
+
+        span {
+          color: rgba($black, 0.5);
+        }
+        button {
+          @include media-breakpoint-up(lg) {
+            margin-left: auto;
+          }
+
+          gap: 5px;
+        }
+      }
+    }
+  }
+}

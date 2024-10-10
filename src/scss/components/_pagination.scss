@@ -1,0 +1,78 @@
+
+/* ------------------- */
+/* pagination css starts         */
+/* ------------------- */
+.pagination {
+  border: 1px solid $charcoal-light;
+  width: fit-content;
+  display: flex;
+  padding-block: 7px;
+  align-items: center;
+  justify-content: center;
+  @include media-breakpoint-up(md) {
+    justify-content: center;
+  }
+  .prev,
+  .next {
+    font-size: rem(12) !important;
+  }
+  .page-numbers {
+    font-size: rem(16);
+    color: $black;
+    border-radius: 0;
+    border: 0;
+    padding-inline: 17px;
+    background: $white;
+    margin-left: 0 !important;
+    position: relative;
+    &:hover {
+      background: inherit;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 1px;
+      height: 32px;
+      background: rgba($black, 0.2);
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .current {
+    font-size: rem(22);
+    color: $brown;
+  }
+
+  span.page-numbers {
+    &.dots {
+      display: none;
+
+      &:last-child {
+        display: block;
+      }
+    }
+  }
+
+  .prev.page-numbers,
+  .next.page-numbers {
+    &.disabled {
+      cursor: not-allowed;
+    }
+
+    &:nth-child(2),
+    &:nth-last-child(2) {
+      display: none;
+    }
+  }
+}
+
+/* ------------------- */
+/* pagination css ends       */
+/* ------------------- */

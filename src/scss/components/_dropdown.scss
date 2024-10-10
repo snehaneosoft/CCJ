@@ -1,0 +1,21 @@
+/* ------------------- */
+/* common select dropdown css start         */
+/* ------------------- */
+.form-select{
+    outline: none;
+    border: 1px solid $grey;
+    border-radius: 0;
+    font-size: rem(14);
+    padding: 10px 15px ;
+    color: $dark-grey;
+    &:focus{
+        box-shadow: none ;
+        border-color:$grey;
+    }
+   
+}
+
+
+/* ------------------- */
+/* common select dropdown css end            */
+/* ------------------- */

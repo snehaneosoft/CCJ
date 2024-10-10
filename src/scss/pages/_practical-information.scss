@@ -1,0 +1,98 @@
+/* ------------------- */
+/* practical information css starts     */
+/* ------------------- */
+.information-wrapper {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  .information-container {
+    max-width: 1200px;
+    padding-inline: 15px;
+    margin: 0 auto;
+    .information-right {
+      height: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .information-left {
+      .lists-main {
+        .list {
+          padding-block: 15px;
+          border-bottom: 1px solid rgba($black, 0.1);
+          font-weight: 500;
+          font-size: rem(16);
+          color: $text-black;
+          font-family: $ff-roboto;
+          &:last-child {
+            border-bottom: 0;
+          }
+          a {
+            font-weight: 500;
+            font-size: rem(16);
+            color: $text-black;
+            font-family: $ff-roboto;
+          }
+        }
+      }
+      h6 {
+        font-size: rem(18);
+        color: $text-black;
+      }
+      ul {
+        li {
+          // font-size: rem(16);
+          color: rgba($black, 0.9);
+          font-family: $ff-roboto;
+          text-align: justify;
+          position: relative;
+          padding-left: 20px;
+          margin-bottom: 10px;
+          &::before {
+            content: "";
+            display: block;
+            height: 8px;
+            width: 8px;
+            top: 8px;
+            background: $green;
+            position: absolute;
+            border-radius: 50%;
+            left: 0;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .landmark-cases-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+      .bottom-border {
+        max-width: 238px;
+        display: flex;
+        justify-content: center;
+      }
+      .brown-box {
+        border: 2px solid $brown;
+        padding: 40px 20px;
+        width: 100%;
+        p {
+          color: $grey-text;
+          font-family: $ff-roboto;
+          text-align: center;
+          margin: 0 auto;
+          @include media-breakpoint-up(lg) {
+            max-width: 670px;
+          }
+        }
+      }
+    }
+  }
+}
+/* ------------------- */
+/* practical information css ends     */
+/* ------------------- */

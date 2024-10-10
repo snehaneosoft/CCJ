@@ -1,0 +1,26 @@
+/* ------------------- */
+/* search site css starts            */
+/* ------------------- */
+.search-site-wrapper {
+  margin-block: 30px;
+  .search-title {
+    font-size: rem(24);
+  }
+  .search-results-list {
+    .search-result-item {
+      margin-block: 20px;
+      .search-result-title {
+        a {
+          font-size: rem(18);
+          color: $brown;
+        }
+      }
+      .search-result-excerpt {
+        font-size: rem(14);
+      }
+    }
+  }
+}
+/* ------------------- */
+/* search site css ends            */
+/* ------------------- */

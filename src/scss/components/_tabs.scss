@@ -1,0 +1,35 @@
+/* ------------------- */
+/* common tabs css starts    */
+/* ------------------- */
+.nav-tabs {
+  justify-content: center;
+  gap: 17px;
+  display: flex !important;
+  flex-wrap: wrap;
+  border-bottom: 0;
+  .nav-link {
+    padding: 15px 20px;
+    font-size: rem(14);
+    color: rgba($white, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba($white, 0.5);
+    background-color: transparent;
+    text-transform: capitalize;
+    min-width: 163px;
+    text-align: center;
+    transition: all 500ms;
+    &.active {
+      border: 1px solid $white;
+      font-weight: 700;
+      color: $white;
+      background-color: transparent;
+    }
+    &:hover {
+      color: $black;
+      background-color: $white;
+    }
+  }
+}
+/* ------------------- */
+/* common tabs css ends      */
+/* ------------------- */

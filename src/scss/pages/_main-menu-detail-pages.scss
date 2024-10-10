@@ -1,0 +1,19 @@
+.main-detail-wrapper {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  p {
+    font-size: rem(16);
+    color: $text-black;
+    line-height: 21.22px;
+    text-align: justify;
+    font-family: $ff-roboto;
+  }
+  .main-top-section {
+    margin-bottom: 30px;
+  }
+  .main-bottom-section {
+    img {
+      width: 100%;
+    }
+  }
+}

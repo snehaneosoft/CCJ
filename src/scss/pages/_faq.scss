@@ -1,0 +1,94 @@
+.faq-main {
+  padding-bottom: 130px;
+  .newsletter-para{
+    font-family: $ff-roboto;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    .faq-wrapper {
+      width: 100%;
+      border-radius: 10px;
+      background: $slate;
+      max-height: fit-content;
+
+      .faq-body {
+        display: none; /* Initially hide the body */
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-top: 1px solid #ddd;
+        font-size: rem(16);
+        transition: 0.4s ease; /* Smooth transition */
+      }
+
+      .faq-heading {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 20px;
+
+        p {
+          font-size: rem(20);
+          max-width: 90%;
+        }
+        .faq-arrow img {
+          transition: transform 0.3s ease; /* Smooth rotation transition */
+        }
+      }
+      &.active .faq-arrow img {
+        transform: rotate(180deg); /* Rotate the arrow when active */
+      }
+
+      &.active .faq-body {
+        display: block; /* Show the body when active */
+      }
+      &.active {
+        max-height: max-content;
+      }
+    }
+  }
+}
+.heading-pagination {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+  @include media-breakpoint-up(md) {
+    flex-wrap: nowrap;
+  }
+  .pagination-left {
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      width: 50%;
+      margin-right: 20px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 65%;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 70%;
+      margin-right: 35px;
+    }
+  }
+  .pagination-right {
+    width: 100%;
+    margin-top: 20px;
+    @include media-breakpoint-up(md) {
+      width: 50%;
+      justify-content: flex-end;
+      display: flex;
+      margin-top: 0;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 35%;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 30%;
+    }
+  }
+}

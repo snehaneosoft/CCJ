@@ -1,0 +1,75 @@
+/* ------------------- */
+/* press release css starts     */
+/* ------------------- */
+.press-release-wrapper {
+  margin-block: 30px;
+  .press-main {
+    margin-top: 30px;
+    .press-left {
+      img {
+        width: 100%;
+      }
+      .press-left-bottom {
+        padding: 20px;
+        h5 {
+          font-weight: 700;
+          font-size: rem(14);
+          margin-bottom: 7px;
+          color: $secondary-black;
+          span {
+            font-weight: 700;
+            font-size: 20;
+            color: $green;
+          }
+        }
+        h6 {
+          font-size: rem(20);
+          font-weight: 400;
+          padding-bottom: 20px;
+          border-bottom: 1px solid rgba($black, 0.2);
+        }
+        p {
+          font-family: $ff-roboto;
+          color: $text-black;
+          margin-top: 20px;
+        }
+        .read-more {
+          text-transform: uppercase;
+        }
+      }
+    }
+    .press-right {
+      .press-list {
+        img {
+          width: 100%;
+        }
+        .press-news {
+          padding-block: 20px;
+          border-bottom: 1px solid rgba($black, 0.1);
+          &:last-child {
+            border-bottom: 0;
+          }
+          h6 {
+            font-weight: 700;
+            font-size: rem(14);
+            margin-bottom: 7px;
+            color: $secondary-black;
+            span {
+              font-weight: 700;
+              font-size: 20;
+              color: $green;
+            }
+          }
+          p {
+            font-size: rem(14);
+            color: $secondary-black;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+/* ------------------- */
+/* press release css ends      */
+/* ------------------- */

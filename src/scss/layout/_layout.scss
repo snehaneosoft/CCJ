@@ -1,0 +1,20 @@
+// .container {
+//   max-width: 1000px;
+//   width: 100%;
+//   padding-inline: 16px;
+//   margin-inline: auto;
+// }
+
+.container {
+  --content: 1239px;
+  --mw: 100%;
+  --px: calc(15px * 2);
+
+  width: min(var(--mw) - var(--px), var(--content));
+  padding-inline: 0 !important; // if bootstrap install
+  margin-inline: auto;
+}
+
+
+
+

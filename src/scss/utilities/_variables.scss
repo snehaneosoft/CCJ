@@ -1,0 +1,46 @@
+/* ------------------- */
+/* Font family         */
+/* ------------------- */
+
+$ff-helvetica: "Helvetica", "Arial", sans-serif;
+$ff-roboto: "Roboto", sans-serif;
+$ff-montserrat: "Montserrat", sans-serif;
+/* ------------------- */
+/* Colors              */
+/* ------------------- */
+$black: #000000;
+$secondary-black: #212121;
+$text-black: #454545;
+$white: #ffffff;
+$slate: #f7f7f7;
+$brown: #945547;
+$light-brown: #e6cbc1;
+$green: #008042;
+$yellow: #e6cb00;
+$grey: #a8a8a8;
+$dark-grey: #6e6e6e;
+$faded-brown: #ad4f2e4d;
+$ligh-grey: #45454533;
+$medium-grey: #d9d9d980;
+$charcoal: #616161;
+$charcoal-light: #a9a9a9;
+$charcoal-medium: #9F9F9F;
+$grey-text: #4F4F4F;
+$light-yellow: #E4CA000D;
+$medium-slate:#EDEDED;
+
+
+/* ------------------- */
+/* Font Path           */
+/* ------------------- */
+$fonts-path: "../fonts" !default;
+
+/* ------------------- */
+/* Image Path          */
+/* ------------------- */
+$images-path: "../images" !default;
+
+/* ------------------- */
+/* Convert px to rem   */
+/* ------------------- */
+$base-rem: 16 !default;
