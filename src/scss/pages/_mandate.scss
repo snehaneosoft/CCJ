@@ -37,6 +37,9 @@
         color: $black;
         margin-bottom: 10px;
       }
+      p {
+        margin-bottom: 10px;
+      }
       ul {
         li {
           font-size: rem(14);
@@ -47,7 +50,7 @@
           padding-left: 20px;
           margin-bottom: 10px;
           &::before {
-            content: "";
+            content: '';
             display: block;
             height: 8px;
             width: 8px;
