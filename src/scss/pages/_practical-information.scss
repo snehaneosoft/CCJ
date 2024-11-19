@@ -102,6 +102,15 @@
         }
       }
     }
+    &.str_of_court_container {
+      .information-right {
+        img {
+          max-width: 100%;
+          max-height: 400px;
+          height: auto;
+        }
+      }
+    }
   }
 }
 /* ------------------- */
